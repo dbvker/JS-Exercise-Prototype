@@ -146,10 +146,10 @@ console.log(alex.play());
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window binding - 'this' we get the window or console object
+  2. Implicit binding - the object left of the dot gets the 'this'
+  3. Explicit binding - When JavaScript's call or apply method is used, 'this' is explicitly defined
+  4. New binding - when a constructor function is uses, 'this' refers to the specific instance of the object being created and returned
 */
 
 
